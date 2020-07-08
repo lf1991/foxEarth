@@ -1,0 +1,28 @@
+{
+  "name": "foxEarth",
+  "version": "1.0.0",
+  "description": "a fox earth ",
+  "main": "./src/main.ts",
+  "author": "feili",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "rollup": "^2.19.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-banner": "^0.2.1",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-livereload": "^1.3.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-replace": "^2.2.0",
+    "rollup-plugin-serve": "^1.0.1",
+    "rollup-plugin-terser": "^6.1.0",
+    "rollup-plugin-typescript2": "^0.27.1",
+    "typescript": "^3.9.6"
+  },
+  "scripts": {
+    "start": "rollup -c ./rollup.config.js",
+    "watch": "rollup -w -c ./rollup.config.js"
+  }
+}
